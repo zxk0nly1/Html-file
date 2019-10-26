@@ -1,0 +1,24 @@
+.list-group li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+  border-bottom: solid 1px #ddd;
+}
+.list-group li:last-child {
+  border-bottom: none;
+}
+.list-group li a {
+  color: #222;
+}
+.list-group li a:hover {
+  font-weight: bold;
+}
+.list-group small {
+  font-weight: 200;
+  font-size: 80%;
+  color: #777;
+}
+.list-group small span {
+  font-size: 0.5rem;
+  color: #999;
+}

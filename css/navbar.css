@@ -1,0 +1,88 @@
+header {
+  border-bottom: solid 5px #16a085;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+header .navbar {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+header .navbar .logo {
+  color: #16a085;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 1.3rem;
+}
+header .navbar .logo + label {
+  display: none;
+}
+header .navbar .logo + label + input {
+  display: none;
+}
+header .navbar .collapse {
+  display: flex;
+  flex-grow: 1;
+}
+header .navbar .collapse .link {
+  display: flex;
+  margin-right: auto;
+}
+header .navbar .collapse .link:hover {
+  font-weight: bolder;
+}
+header .navbar .collapse .link:hover.current {
+  color: #000;
+  font-size: 700;
+}
+header .navbar .collapse .link li {
+  margin: 0 10px;
+}
+header .navbar .collapse .link a {
+  color: #777;
+  font-weight: bold;
+}
+header .navbar .collapse .form a {
+  border: solid 1px #16a085;
+  border-radius: 0.3rem;
+  padding: 0.3rem 1rem;
+  color: #16a085;
+}
+header .navbar .collapse .form a.form-bg {
+  background: #16a085;
+  color: #fff;
+}
+@media only screen and (max-width: 960px) {
+  header .navbar {
+    flex-flow: row wrap;
+  }
+  header .navbar .logo {
+    margin-right: auto;
+  }
+  header .navbar .logo + label {
+    display: block;
+    border: solid 1px #ddd;
+    padding: 0.5rem 1rem;
+    color: #555;
+    cursor: pointer;
+  }
+  header .navbar .logo + label + input:checked + .collapse {
+    display: block;
+  }
+  header .navbar .collapse {
+    display: none;
+    width: 100%;
+    flex-flow: column;
+  }
+  header .navbar .collapse .link {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  header .navbar .collapse .link li {
+    margin: 0.5rem 0;
+  }
+  header .navbar .form a {
+    padding: 0.2rem 0.4rem;
+    font-weight: normal;
+    font-size: 12px;
+  }
+}

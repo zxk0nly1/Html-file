@@ -1,0 +1,26 @@
+.list-group{
+    li{ 
+        display: flex;
+        justify-content: space-between;
+        padding:.8rem 0;
+        border-bottom: solid 1px #ddd;
+        &:last-child{
+            border-bottom: none;
+        }
+        a{
+            color:#222;
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+    small{
+        font-weight: 200;
+        font-size: 80%;
+        color:#777;
+        span{
+            font-size: .5rem;
+            color:#999;
+        }
+    }
+}
