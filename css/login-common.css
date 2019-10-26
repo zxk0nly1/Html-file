@@ -1,0 +1,15 @@
+.card .card-header div {
+  width: 80%;
+  padding: 1.25rem;
+  margin: auto;
+}
+.card .card-header div h3 {
+  padding: 1.25rem;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: #fff;
+  background: #3498db;
+}
+.card-header {
+  box-shadow: 0 0 1.3rem rgba(0, 0, 0, 0.5);
+}
