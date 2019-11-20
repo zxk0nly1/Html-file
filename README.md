@@ -4,10 +4,15 @@
 
 ### 友情链接：https://www.houdunren.com
 
+##### 1200px以上
 ![avatar](./img/hdr.png)
 
-![avatar](./img/hdr_la.png)
+#####  960px-1200px
+![avatar](./img/hdr_large.png)
 
+
+##### 750px-960px
 ![avatar](./img/hdr_mid.png)
 
+##### 750px以下
 ![avatar](./img/hdr_sm.png)
