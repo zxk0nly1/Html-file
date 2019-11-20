@@ -4,4 +4,10 @@
 
 ### 友情链接：https://www.houdunren.com
 
-![avatar](./img/demo.png)
+![avatar](./img/hdr.png)
+
+![avatar](./img/hdr_la.png)
+
+![avatar](./img/hdr_mid.png)
+
+![avatar](./img/hdr_sm.png)
